@@ -1,0 +1,1 @@
+copy yarn.lock dist /Y && copy package.json dist /Y && copy command\shutdown.sh dist /Y && copy command\startup.sh dist /Y && cd dist && yarn install --product
